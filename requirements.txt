@@ -1,0 +1,19 @@
+# YouTube Mood Playlist AI - Requirements
+# Python 3.7+ is required
+
+# Computer Vision and Emotion Analysis
+opencv-python>=4.5.0
+deepface>=0.0.75
+numpy>=1.19.0
+
+# YouTube API
+google-api-python-client>=2.0.0
+google-auth-httplib2>=0.1.0
+google-auth-oauthlib>=0.5.0
+
+# Additional Requirements
+tensorflow>=2.4.0  # Required for DeepFace
+keras>=2.4.0       # Required for DeepFace
+
+# Optional: For better performance
+# opencv-contrib-python>=4.5.0  # Extra OpenCV modules
